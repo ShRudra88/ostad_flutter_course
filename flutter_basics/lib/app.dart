@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'core_widgets_practice.dart';
 import 'home.dart';
 
 class MyApp extends StatelessWidget {
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Basics',
-      home: Home(),
+      home: CoreWidgetsPractice(),
     );
   }
 }
