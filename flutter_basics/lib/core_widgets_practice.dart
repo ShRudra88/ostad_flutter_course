@@ -85,6 +85,14 @@ class CoreWidgetsPractice extends StatelessWidget {
                 SizedBox(
                   height: 40,
                 ),
+                ElevatedButton(onPressed: (){}, child: Text('Button 1')),
+                SizedBox(
+                  height: 40,
+                ),
+                ElevatedButton(onPressed: (){}, child: Text('Button 2')),
+                SizedBox(
+                  height: 40,
+                ),
                 Container(
                   alignment: Alignment.center,
                   height: 70,
