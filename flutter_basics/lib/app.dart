@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basics/stack_practice.dart';
 
 import 'core_widgets_practice.dart';
 import 'home.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
 
       //home: Home(),
 
-      home: CoreWidgetsPractice(),
+      //home: CoreWidgetsPractice(),
+      home: StackPractice(),
     );
   }
 }
